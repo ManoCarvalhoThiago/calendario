@@ -1,0 +1,48 @@
+body {
+    height: 100vh;
+    width: 100vw;
+    background: antiquewhite;
+}
+
+ul#calendario {
+    background: blue;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.mes-container table {
+    width: 100%;
+}
+
+tr {
+    width: 14.2857142857%;
+    text-align: center;
+}
+
+.mes-container {
+    display: none;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    list-style-type: none!important;
+    background: cornsilk;
+    min-width: 240px;
+    min-height: 320px;
+}
+
+ul#calendario>li.mes-container:nth-child(1) {
+    display: flex!important;
+}
+
+#dsad:checked~.se {
+    display: inline;
+}
+
+.mes-container>div {
+    background: chocolate;
+    height: 40%;
+    width: 100%;
+}
